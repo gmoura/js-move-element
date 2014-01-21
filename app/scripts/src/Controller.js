@@ -24,7 +24,6 @@ Controller.prototype.moveActor = function() {
 
 			//up
 			case self.keysMoveActor[1]:
-				console.log('oi');
 				self.actor.moveShortToTop();
 			break;
 
@@ -34,6 +33,7 @@ Controller.prototype.moveActor = function() {
 
 			// down
 			case self.keysMoveActor[3]:
+				self.actor.moveShortToDown();
 			break;
 		}
 	};
