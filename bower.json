@@ -1,0 +1,22 @@
+{
+  "name": "js-windows-calculator",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gmoura/js-windows-calculator",
+  "authors": [
+    "Guilherme Moura Nascimento <gmoura.nas@gmail.com>"
+  ],
+  "description": "Basic Windows Calculator whiting in pure JavaScript",
+  "main": "index.html",
+  "keywords": [
+    "javascript",
+    "calculator"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
