@@ -1,15 +1,15 @@
 {
-  "name": "js-windows-calculator",
+  "name": "js-move-element",
   "version": "0.0.0",
-  "homepage": "https://github.com/gmoura/js-windows-calculator",
+  "homepage": "https://github.com/gmoura/js-move-element",
   "authors": [
     "Guilherme Moura Nascimento <gmoura.nas@gmail.com>"
   ],
-  "description": "Basic Windows Calculator whiting in pure JavaScript",
-  "main": "index.html",
+  "description": "Move element for all directions",
+  "main": "app/index.html",
   "keywords": [
     "javascript",
-    "calculator"
+    "anamation"
   ],
   "license": "MIT",
   "ignore": [
