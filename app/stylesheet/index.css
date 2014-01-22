@@ -74,6 +74,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 1, ../../sass/component/_actor.scss */
 .actor {
+  -webkit-transform: rotate(0deg);
   position: absolute;
   width: 20px;
   height: 20px;
@@ -90,6 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 12, ../../sass/component/_actor.scss */
 .actor:before {
+  -webkit-transform: rotate(0deg);
   content: "";
   position: absolute;
   width: 0;

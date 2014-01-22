@@ -5,7 +5,7 @@ function Actor () {
 
   this.element  = document.getElementById("actor");
 }
-
+ 
 /**
  * Get Axis the Actor element
  * @param  {String} axis
@@ -28,4 +28,17 @@ Actor.prototype.moveShortToTop = function() {
 Actor.prototype.moveShortToDown = function() {
   var decrements = this.getAxis('y') + 5 ;
   this.element.style.top = decrements + "px";
+
+};
+
+Actor.prototype.moveShortToLeft = function() {
+  var increase = this.getAxis('x') - 1 - this.element.offsetWidth; 
+  this.element.style.left = increase + "px";
+
+};
+
+Actor.prototype.moveShortToRight = function() {
+  var decrements = this.getAxis('x') + 1 ;
+  this.element.style.left = decrements + "px";
+
 };

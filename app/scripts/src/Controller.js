@@ -12,6 +12,7 @@ function Controller () {
 	];
 }
 
+
 Controller.prototype.moveActor = function() {
 	self = this;
 	window.onkeydown = function(e){
@@ -19,7 +20,7 @@ Controller.prototype.moveActor = function() {
 
 			//left
 			case self.keysMoveActor[0]:
-
+				self.actor.moveShortToLeft();
 			break;
 
 			//up
@@ -29,12 +30,15 @@ Controller.prototype.moveActor = function() {
 
 			// right
 			case self.keysMoveActor[2]:
-			break;
+				self.actor.moveShortToRight();
+							break;
 
 			// down
 			case self.keysMoveActor[3]:
 				self.actor.moveShortToDown();
+				
 			break;
 		}
+	
 	};
 };
