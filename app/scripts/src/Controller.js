@@ -31,14 +31,15 @@ Controller.prototype.moveActor = function() {
 			// right
 			case self.keysMoveActor[2]:
 				self.actor.moveShortToRight();
-							break;
+			break;
 
 			// down
 			case self.keysMoveActor[3]:
-				self.actor.moveShortToDown();
-				
+				self.actor.moveShortToDown();				
 			break;
 		}
+
+
 	
 	};
 };

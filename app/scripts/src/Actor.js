@@ -42,3 +42,5 @@ Actor.prototype.moveShortToRight = function() {
   this.element.style.left = decrements + "px";
 
 };
+
+
