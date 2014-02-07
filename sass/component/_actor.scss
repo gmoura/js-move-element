@@ -3,12 +3,10 @@
 	width: 20px;
 	height: 20px;
 	background: black;
-  top: 480px;
+  	top: 480px;
 	left: 50%;
 	margin-left:-10px;
 	@include border-radius(100%);
-	@include transition-property(rotate);
-	@include transition-duration(1s);
 
 	&.rotate-to-right {
 		@include rotate(85deg);
@@ -22,7 +20,6 @@
 	&.rotate-to-down {
 		@include rotate(180deg);
 	}
-
 }
 
 .actor:before {
