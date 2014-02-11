@@ -22,6 +22,18 @@
 	&.rotate-to-down {
 		@include rotate(180deg);
 	}
+	&.rotate-to-top-right {
+		@include rotate(45deg);
+	}
+	&.rotate-to-top-left {
+		@include rotate(-45deg);
+	}
+	&.rotate-to-down-left {
+		@include rotate(130deg);
+	}
+	&.rotate-to-down-right {
+		@include rotate(-130deg);
+	}
 }
 
 .actor:before {

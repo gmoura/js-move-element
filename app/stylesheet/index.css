@@ -127,8 +127,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+/* line 25, ../../sass/component/_actor.scss */
+.actor.rotate-to-top-right {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 28, ../../sass/component/_actor.scss */
+.actor.rotate-to-top-left {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 31, ../../sass/component/_actor.scss */
+.actor.rotate-to-down-left {
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  transform: rotate(130deg);
+}
+/* line 34, ../../sass/component/_actor.scss */
+.actor.rotate-to-down-right {
+  -webkit-transform: rotate(-130deg);
+  -moz-transform: rotate(-130deg);
+  -ms-transform: rotate(-130deg);
+  -o-transform: rotate(-130deg);
+  transform: rotate(-130deg);
+}
 
-/* line 27, ../../sass/component/_actor.scss */
+/* line 39, ../../sass/component/_actor.scss */
 .actor:before {
   content: "";
   position: absolute;
