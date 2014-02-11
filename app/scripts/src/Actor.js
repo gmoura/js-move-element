@@ -73,7 +73,7 @@ Actor.prototype.moveShortToTopLeft = function() {
 Actor.prototype.moveShortToDownRight = function() {
   var 
     increaseY = this.getAxis('y') + 5,
-    increaseX = this.getAxis('x') - 5;
+    increaseX = this.getAxis('x') + 5;
 
   this.changeClass('rotate-to-down-right');
   this.element.style.top  = increaseY + "px";
@@ -84,7 +84,7 @@ Actor.prototype.moveShortToDownRight = function() {
 Actor.prototype.moveShortToDownLeft = function() {
   var 
     increaseY = this.getAxis('y') + 5,
-    increaseX = this.getAxis('x') + 5;
+    increaseX = this.getAxis('x') - 5;
 
   this.changeClass('rotate-to-down-left');
   this.element.style.top  = increaseY + "px";

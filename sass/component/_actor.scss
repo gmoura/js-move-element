@@ -29,10 +29,10 @@
 		@include rotate(-45deg);
 	}
 	&.rotate-to-down-left {
-		@include rotate(130deg);
+		@include rotate(-130deg);
 	}
 	&.rotate-to-down-right {
-		@include rotate(-130deg);
+		@include rotate(130deg);
 	}
 }
 

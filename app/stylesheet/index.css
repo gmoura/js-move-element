@@ -145,19 +145,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 /* line 31, ../../sass/component/_actor.scss */
 .actor.rotate-to-down-left {
-  -webkit-transform: rotate(130deg);
-  -moz-transform: rotate(130deg);
-  -ms-transform: rotate(130deg);
-  -o-transform: rotate(130deg);
-  transform: rotate(130deg);
-}
-/* line 34, ../../sass/component/_actor.scss */
-.actor.rotate-to-down-right {
   -webkit-transform: rotate(-130deg);
   -moz-transform: rotate(-130deg);
   -ms-transform: rotate(-130deg);
   -o-transform: rotate(-130deg);
   transform: rotate(-130deg);
+}
+/* line 34, ../../sass/component/_actor.scss */
+.actor.rotate-to-down-right {
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  transform: rotate(130deg);
 }
 
 /* line 39, ../../sass/component/_actor.scss */
